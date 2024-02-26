@@ -2,8 +2,11 @@
 #include<vector>
 #include"C:/Users/Work/Downloads/MyArray.h"
 
+#include<array>
 
 #include<list> 
+
+#include<algorithm>
 
 using namespace std;
 
@@ -17,25 +20,14 @@ using namespace std;
 //
 //};
 
-//namespace A
-//{
-//    int a = 23; 
-//}
-
-//using INTEGER = int; 
-class A
-{
-    int a; 
-    A(int a)
-        :a(a)
-    {
-
-    };
-};
-
 
 int main()
 {
+    //std::sort()
+    //using namespace A; 
+    //cout << a << endl; 
+
+
     //MyArray<int, 3> ma1; 
     //ma1.print(); 
 
@@ -81,9 +73,9 @@ int main()
     jennysNumber.print(); 
     
     MyArray<int, 7> secondNumberList = { 1, 2, 3, 4, 5, 6, 7 };
-    auto concatenatedNumberList = jennysNumber + secondNumberList; 
+    //auto concatenatedNumberList = jennysNumber + secondNumberList; 
     cout << "\n\n";
-    concatenatedNumberList.print(); 
+    //concatenatedNumberList.print(); 
     cout << "\n\n";
 
     using threeByFourMatrix = MyArray<MyArray<int, 3>, 4>; 
@@ -97,6 +89,16 @@ int main()
     };
 
     cout << "\n\n";
+
+    //vector<int> v1; 
+
+    //auto iterator = v1.begin(); 
+    //for (auto it = v1.begin(); it != v1.end(); ++it)
+    //{
+
+    //}
+
+
     for (auto row : twoDarray)
     {
         for (auto num : row)
