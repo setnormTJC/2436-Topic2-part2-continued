@@ -14,14 +14,14 @@ int main()
 
     //std::all_of()
 
-    double a = 42; 
-    cout << sizeof(double) << endl; 
-    double* pointerToA = &a; 
+    //double a = 42; 
+    //cout << sizeof(double) << endl; 
+    //double* pointerToA = &a; 
 
-    cout << a << "\t" << pointerToA << endl; 
-    pointerToA++; 
+    //cout << a << "\t" << pointerToA << endl; 
+    //pointerToA++; 
 
-    cout << pointerToA << endl; 
+    //cout << pointerToA << endl; 
     //std::reverse()
 
     using namespace MySpace::DataStructs; 
