@@ -68,6 +68,7 @@ void CharVector::increaseVectorCapacity(int newCapacity)
 	letters = temporaryBlock; //updates pointer to temporaryBlock's memory address
 	maxCurrentCapacity = newCapacity;
 	cout << "Thank you, sir. May I have another?" << endl;
+	
 }
 
 void CharVector::pop()
