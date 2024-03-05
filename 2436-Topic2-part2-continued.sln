@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feb28-MyVectorPlay", "Feb28
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Feb29-VectorPrimePlay", "Feb29-VectorPrimePlay\Feb29-VectorPrimePlay.vcxproj", "{E5092A64-4935-406F-BB9A-715ED3BAE9A1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OneSubmissionOfLab2b", "OneSubmissionOfLab2b\OneSubmissionOfLab2b.vcxproj", "{F081F69F-92DA-44A8-80E0-ED6DAA99D924}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{E5092A64-4935-406F-BB9A-715ED3BAE9A1}.Release|x64.Build.0 = Release|x64
 		{E5092A64-4935-406F-BB9A-715ED3BAE9A1}.Release|x86.ActiveCfg = Release|Win32
 		{E5092A64-4935-406F-BB9A-715ED3BAE9A1}.Release|x86.Build.0 = Release|Win32
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Debug|x64.ActiveCfg = Debug|x64
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Debug|x64.Build.0 = Debug|x64
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Debug|x86.ActiveCfg = Debug|Win32
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Debug|x86.Build.0 = Debug|Win32
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Release|x64.ActiveCfg = Release|x64
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Release|x64.Build.0 = Release|x64
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Release|x86.ActiveCfg = Release|Win32
+		{F081F69F-92DA-44A8-80E0-ED6DAA99D924}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
